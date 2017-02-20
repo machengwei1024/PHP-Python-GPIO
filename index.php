@@ -34,10 +34,10 @@
         </header>
         <div class="main">
             <form id="led1-block" action="led1.php" method="post">
-            <span>房内:</span><input id="led1-btn-o" type="submit" name="led1" value="<?php echo $led1_btn ?>">
+            <span>LED1:</span><input id="led1-btn-o" type="submit" name="led1" value="<?php echo $led1_btn ?>">
             </form>
             <form id="led1-block" action="led2.php" method="post">
-            <span>房外:</span><input id="led2-btn-o" type="submit" name="led2" value="<?php echo $led2_btn ?>">
+            <span>LED2:</span><input id="led2-btn-o" type="submit" name="led2" value="<?php echo $led2_btn ?>">
             </form>
         </div>
     </body>
