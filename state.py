@@ -11,6 +11,5 @@ num2 = 18;
 
 GPIO.setup(num1, GPIO.OUT)
 GPIO.setup(num2, GPIO.OUT)
-state = GPIO.input(num1)
 
 print GPIO.input(num1), GPIO.input(num2)
