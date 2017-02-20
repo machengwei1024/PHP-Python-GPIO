@@ -9,4 +9,5 @@ https://weic96.cn/raspberry-pi-gpio-led/
 
 # Python文件里的变量说明：
 num1 = 你要控制的第一个灯的编号
+
 num1 = 你要控制的第二个灯的编号
