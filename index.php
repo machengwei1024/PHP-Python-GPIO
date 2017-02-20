@@ -9,7 +9,7 @@
     <body>
         <?php
 
-        $state = exec('python zt.py');
+        $state = exec('sudo python state.py');
         $state_arr = explode(" ",$state);
 
         if ($state_arr[0] == 1) {
