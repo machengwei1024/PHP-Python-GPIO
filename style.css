@@ -1,0 +1,65 @@
+*{
+    font-weight: 400;
+    font-family: 'Mirages Custom','Merriweather','Open Sans',"PingFang SC",'Hiragino Sans GB','Microsoft Yahei','WenQuanYi Micro Hei','Segoe UI Emoji','Segoe UI Symbol',Helvetica,Arial,sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #255;
+}
+.main{
+	width: 1024px;
+	margin: 0 auto;
+    text-align: center;
+}
+.header{
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 40px;
+    background: #fff;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.header .title{
+    font-size: 22px;
+    color: #bfb7b7;
+    padding: 0;
+    margin: 0;
+}
+#led1-btn-o,
+#led2-btn-o{
+    width: 120px;
+	padding: 10px 18px;
+	font-size: 16px;
+    color: #dfff81;
+    background-color: #ff6565;
+    border: 0;
+    box-shadow: none;
+    cursor: pointer;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#led1-block{
+    margin-bottom: 20px;
+}
+#led1-block span,
+#led1-block> span{
+    padding: 10px;
+	font-size: 16px;
+    color: #ff6565;
+    background-color: #dfff81;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+
+@media screen and (max-width: 370px){
+	.main{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+}
