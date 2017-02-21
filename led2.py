@@ -6,14 +6,14 @@ import RPi.GPIO as GPIO
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 
-num = 18
+num2 = 18
 
-GPIO.setup(num, GPIO.OUT)
-state = GPIO.input(num)
+GPIO.setup(num2, GPIO.OUT)
+state = GPIO.input(num2)
 
 if (state == 1):
-	GPIO.output(num, GPIO.LOW)
+	GPIO.output(num2, GPIO.LOW)
 	print "已打开设备"
 if (state == 0 ):
-	GPIO.output(num,GPIO.HIGH)
+	GPIO.output(num2,GPIO.HIGH)
 	print "已关闭设备"
